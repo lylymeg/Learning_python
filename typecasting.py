@@ -23,8 +23,9 @@ print(age) # "231" because age is now a string, so it concatenates "
 
 name = bool(name) # convert string to boolean
 print(type(name)) # <class 'bool'>
-print(name) # True
+print(name) # True , always true if its not empty 
 
 nickname=""
 nickname=bool(nickname) # convert empty string to boolean
-print(nickname) # False
+print(nickname) # False , always false if its empty 
+
